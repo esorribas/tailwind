@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-h1 {
+    @apply text-3xl text-center font-bold underline text-red-500;
+}
+
+.custom-input-email {
+    @apply shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md;
+}
